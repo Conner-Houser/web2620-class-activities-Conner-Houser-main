@@ -19,13 +19,67 @@ img{
     grid-auto-flow: column;
     gap: 10px;
 
+}
+
+img:nth-child(1){
+    grid-area: 1 / 1 / span 1 / 2;
+}
+
+img:nth-child(2){
+    grid-area: 1 / 2 / span 2 / span 2;
+}
+
+img:nth-child(3){
+    grid-area: 1 / 4 / span 1 / span 1;
+}
+
+img:nth-child(4){
+    grid-area: 1 / 5 / span 1 / span 2;
+}
+
+img:nth-child(5){
+    grid-area: 1 / 7 / span 1 / span 1;
+}
+
+img:nth-child(6){
+    grid-area: 2 / 1 / span 2 / span 1;
+}
+
+img:nth-child(7){
+    grid-area: 2 / 4 / span 2 / span 4;
+}
+
+img:nth-child(8){
+    grid-area: 3 / 2 / span 2 / span 2;
+}
+
+img:nth-child(9){
+    grid-area: 4 / 1 / span 1 / span 1;
+}
+
+img:nth-child(10){
+    grid-area: 4 / 4 / span 1 / span 2;
+}
+
+img:nth-child(11){
+    grid-area: 4 / 6 / span 1 / span 2;
+}
+
+img:nth-child(12){
+    grid-area: 5 / 1 / span 1 / span 2;
+}
+
+img:nth-child(13){
+    grid-area: 5 / 3 / span 1 / span 5;
+}
+
     /*grid-template-areas: 
     "p01 P02 P02 P03 P04 P04 P05"
     "p06 P02 P02 P07 P07 P07 P07"
     "p06 P08 P08 P07 P07 P07 P07"
     "p09 P08 P08 P10 P10 P11 P11"
     "p12 P12 P13 P13 P13 P13 P13";*/
-}
+
 
 /* Grid Placement */
 
@@ -82,55 +136,3 @@ img:nth-child(13){
     grid-area: p13;
 }
 */
-
-img:nth-child(1){
-    grid-area: 1 / 1 / span 1 / 2;
-}
-
-img:nth-child(2){
-    grid-area: 1 / 2 / span 2 / span 2;
-}
-
-img:nth-child(3){
-    grid-area: 1 / 4 / span 1 / span 1;
-}
-
-img:nth-child(4){
-    grid-area: 1 / 5 / span 1 / span 2;
-}
-
-img:nth-child(5){
-    grid-area: 1 / 7 / span 1 / span 1;
-}
-
-img:nth-child(6){
-    grid-area: 2 / 1 / span 2 / span 1;
-}
-
-img:nth-child(7){
-    grid-area: 2 / 4 / span 2 / span 4;
-}
-
-img:nth-child(8){
-    grid-area: 3 / 2 / span 2 / span 2;
-}
-
-img:nth-child(9){
-    grid-area: 4 / 1 / span 1 / span 1;
-}
-
-img:nth-child(10){
-    grid-area: 4 / 4 / span 1 / span 2;
-}
-
-img:nth-child(11){
-    grid-area: 4 / 6 / span 1 / span 2;
-}
-
-img:nth-child(12){
-    grid-area: 5 / 1 / span 1 / span 2;
-}
-
-img:nth-child(13){
-    grid-area: 5 / 3 / span 1 / span 5;
-}
