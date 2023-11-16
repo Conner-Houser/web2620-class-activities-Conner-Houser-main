@@ -5,4 +5,4 @@ require("../stylesheets/main.scss") //require.context('../stylesheets/', true, /
 
 //TODO - Your ES6 JavaScript code (if any) goes here
 
-import * as bootstrap from 'bootstrap'
+import 'bootstrap'
